@@ -1,16 +1,18 @@
 <%= stylesheet_link_tag 'style.css' %>
+<%= audio_tag "beepone.mp3", class: "audio-play" %>
+
 <h3>How Do You Feel Today?</h3>
 <div>
-	<a href="/need"><div id="happy" class="col-md-6 col-xs-12 fill">
+	<div id="happy" class="col-md-6 col-xs-12 fill">
 		<%= image_tag("happy.png", :alt => "Happy", :class => "image") %>
-	</div></a>
-	<a href="/need"><div id="sad" class="col-md-6 col-xs-12 fill">
+	</div>
+	<div id="sad" class="col-md-6 col-xs-12 fill">
 		<%= image_tag("sad.png", :alt => "Sad", :class => "image") %>
-	</div></a>
-	<a href="/need"><div id="angry" class="col-md-6 col-xs-12 fill">
+	</div>
+	<div id="angry" class="col-md-6 col-xs-12 fill">
 		<%= image_tag("mad.png", :alt => "Mad", :class => "image") %>
-	</div></a>
-	<a href="/need"><div id="calm" class="col-md-6 col-xs-12 fill">
+	</div>
+	<div id="calm" class="col-md-6 col-xs-12 fill">
 		<%= image_tag("neutral.png", :alt => "Neutral", :class => "image") %>
-	</div></a>
+	</div>
 </div>

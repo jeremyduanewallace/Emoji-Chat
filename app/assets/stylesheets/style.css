@@ -18,6 +18,26 @@ h3{
 #calm{
   background-color: #8EE89B;
 }
+#happy-need{
+  background-color: #f7b733;
+/*  width: 600px;*/
+  /*height: 500px;*/
+}
+#sad-need{
+  background-color: #4abdac;
+/*  width: 300px;*/
+  /*height: 500px;*/
+}
+#angry-need{
+  background-color: #fc4a1a;
+/*  width: 300px;*/
+  /*height: 500px;*/
+}
+#calm-need{
+  background-color: #dfdce3;
+/*  width: 300px;*/
+  /*height: 500px;*/
+}
 .fill{
   min-height: 400px;
   height: 400px;

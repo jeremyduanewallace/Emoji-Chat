@@ -25,8 +25,8 @@ ActiveRecord::Schema.define(version: 20160908225610) do
     t.string   "email"
     t.string   "username"
     t.string   "password_digest"
-    t.integer  "rating"
-    t.integer  "num_of_ratings"
+    t.integer  "feel"
+    t.integer  "want"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
   end

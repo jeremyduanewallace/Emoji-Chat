@@ -1,4 +1,6 @@
 <%= stylesheet_link_tag 'style.css' %>
+<%= audio_tag "beepone.mp3", class: "audio-play" %>
+
 <div class="showPage">
   <h1 class="text-center">Chat Room</h1>
   <div class="pre-scrollable chatbox">
@@ -11,6 +13,9 @@
     <label>
       Say something:<br>
     </label>
+
+    <input id="chat-input" class="form-control text-center" type="text" data-behavior="room_speaker" placeholder="Write text here">
+
     <div class="emoji-picker-container">
       <input class="form-control text-center" type="text" data-behavior="room_speaker" placeholder="Write text here" data-emojiable="true">
     </div>

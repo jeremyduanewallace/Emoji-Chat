@@ -4,8 +4,8 @@ class CreateUsers < ActiveRecord::Migration[5.0]
       t.string :email
       t.string :username
       t.string :password_digest
-      t.integer :rating
-      t.integer :num_of_ratings
+      t.integer :feel
+      t.integer :want
 
       t.timestamps
     end

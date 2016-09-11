@@ -1,19 +1,24 @@
 <%= stylesheet_link_tag 'style.css' %>
+<%= audio_tag "beepone.mp3", class: "audio-play" %>
+
+<h3>I want to talk to someone...?</h3>
+
 <style>
 body {background-color: #ffffff;}
 </style>
 <h3 style="color:black;">I want to talk to someone...?</h3>
+
 <div>
-	<a href="/show"><div id="happy" class="col-md-6 col-xs-12 fill">
+	<div id="happy-need" class="col-md-6 col-xs-12 fill">
 		<%= image_tag("happy.png", :alt => "Happy", :class => "image") %>
-	</div></a>
-	<a href="/show"><div id="sad" class="col-md-6 col-xs-12 fill">
+	</div>
+	<div id="sad-need" class="col-md-6 col-xs-12 fill">
 		<%= image_tag("sad.png", :alt => "Sad", :class => "image") %>
-	</div></a>
-	<a href="/show"><div id="angry" class="col-md-6 col-xs-12 fill">
+	</div>
+	<div id="angry-need" class="col-md-6 col-xs-12 fill">
 		<%= image_tag("mad.png", :alt => "Mad", :class => "image") %>
-	</div></a>
-	<a href="/show"><div id="calm" class="col-md-6 col-xs-12 fill">
+	</div>
+	<div id="calm-need" class="col-md-6 col-xs-12 fill">
 		<%= image_tag("neutral.png", :alt => "Neutral", :class => "image") %>
-	</div></a>
+	</div>
 </div>
