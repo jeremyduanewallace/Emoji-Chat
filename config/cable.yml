@@ -7,3 +7,4 @@ test:
 production:
   adapter: redis
   url: redis://redistogo:47c98ec4254777fb36874c888f2c0501@viperfish.redistogo.com:11986/
+
