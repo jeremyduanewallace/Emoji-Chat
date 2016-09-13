@@ -35,14 +35,15 @@ display: block;
 margin: 0 auto;
 }
 
-.float{
+.float {
 z-index: 1;
 height: 0px;
 opacity: 1;
 filter: alpha(opacity=100);
 position: absolute;
-top: 51%;
-left: 33%;
+top: 0%;
+text-align: center;
+width:100%;
 font-size: 48px;
 }
 
