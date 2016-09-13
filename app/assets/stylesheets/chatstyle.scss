@@ -1,184 +1,176 @@
 body {
-  font-family: "Futura";
+font-family: "Futura";
 }
 .jelly-container {
-  width: 100%;
-  position: fixed;
-  height: 100%;
-  overflow: hidden;
-  background: linear-gradient(to bottom, rgba(0, 141, 210, 0.63) 0%, rgba(0, 0, 0, 0) 100% );
+width: 100%;
+position: fixed;
+height: 100%;
+overflow: hidden;
+background: linear-gradient(to bottom, rgba(0, 141, 210, 0.63) 0%, rgba(0, 0, 0, 0) 100% );
 }
-
 div[class^="bubble-"] {
-  height: 1px;
-  width: 1px;
-  position: absolute;
-  background-color: rgba(0, 141, 210, 0.3);
-  border-radius: 50%;
-  transform: translateX(-50%);
-
-  &:after {
-    content: '';
-    position: absolute;
-    height: 85%;
-    width: 85%;
-    border-top: 1px solid rgba(255, 255, 255, 0.63);
-    border-radius: 50%;
-    left: 50%;
-    top: 50%;
-    transform: translate3d(-50%, -50%, 0) rotateZ(-45deg);
-  }
+height: 1px;
+width: 1px;
+position: absolute;
+background-color: rgba(0, 141, 210, 0.3);
+border-radius: 50%;
+transform: translateX(-50%);
+&:after {
+content: '';
+position: absolute;
+height: 85%;
+width: 85%;
+border-top: 1px solid rgba(255, 255, 255, 0.63);
+border-radius: 50%;
+left: 50%;
+top: 50%;
+transform: translate3d(-50%, -50%, 0) rotateZ(-45deg);
 }
-
+}
 .bubble-1{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
 }
 .bubble-2{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
 }
 .bubble-3{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
 }
 .bubble-4{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
 }
 .bubble-5{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
 }
 .bubble-6{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
 }
 .bubble-7{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
 }
 .bubble-8{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
 }
 .bubble-9{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
 }
 .bubble-10{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 4s infinite ease-in random(300)*-.01s;
 }
 .bubble-11{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
 }
 .bubble-12{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
 }
 .bubble-13{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
 }
 .bubble-14{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
 }
 .bubble-15{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
 }
 .bubble-16{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
 }
 .bubble-17{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
 }
 .bubble-18{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
 }
 .bubble-19{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
 }
 .bubble-20{
-  bottom: random(10) + 1px;
-  left: random(99) + 1%; 
-  animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
+bottom: random(10) + 1px;
+left: random(99) + 1%;
+animation: bubble-movement 3s infinite ease-in random(300)*-.01s;
 }
-
 @keyframes bubble-movement{
-  0%   {
-    transform: translate3d(-50%, 0, 0);
-    height: 1px;
-    width: 1px;
-    }
-  100% {
-    transform: translate3d(-50%, -500px, 0);
-    height: 75px;
-    width: 75px;
-  }
+0%   {
+transform: translate3d(-50%, 0, 0);
+height: 1px;
+width: 1px;
 }
-
-
+100% {
+transform: translate3d(-50%, -500px, 0);
+height: 75px;
+width: 75px;
+}
+}
 .showPage {
-  width: 100%;
-  height: 1000px;
-  margin: 0 auto;
+width: 100%;
+height: 1000px;
+margin: 0 auto;
 }
-
 .pre-scrollable.chatbox{
-    max-height: 550px;
-    max-width: 100%;
-    overflow-x: hidden;
+max-height: 550px;
+max-width: 100%;
+overflow-x: hidden;
 }
-
 #messages{
-  font-size: 25px;
-  color: black;
-  text-align: right;
-  position: relative;
-  left: 40%;
-  margin-bottom: 140px;
+font-size: 25px;
+color: black;
+text-align: right;
+position: relative;
+left: 35%;
+margin-bottom: 140px;
+font-size: 0px;
 }
-
 #message-content{
-  position:relative;
-  padding:15px;
-  margin:30px 0 10px 30px;
-  border:5px solid #126DFF;
-  color:#333;
-  background:#fff;
-  /* css3 */
-  -webkit-border-radius:10px;
-  -moz-border-radius:10px;
-  border-radius:10px;
-  width: 20%;
+position:relative;
+padding:15px;
+margin:30px 0 10px 30px;
+border:5px solid #126DFF;
+color:#333;
+background:#fff;
+font-size: 24px;
+
+
+/* css3 */
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+width: 30%;
 }
-
-
-

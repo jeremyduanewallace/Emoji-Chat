@@ -1,14 +1,14 @@
 <div id="login-form">
-  <p id="login-title">Login / Sign Up</p>
+  <h3 id="login-title">Login / Sign Up</h3>
     <%= form_for :user do |f| %>
       <%= f.email_field :email, placeholder: "Enter your email" %>
       <%= f.password_field :password, placeholder: "Enter your password" %>
       <%= f.submit "Submit" %>
     <% end %>
     <span>
-    <%= image_tag("hap.png", :alt => "Happy", :class => "hap") %>
-    <%= image_tag("crying.png", :alt => "Crying", :class => "cry") %>
-    <%= image_tag("relaxed.png", :alt => "Relaxed", :class => "relax") %>
-    <%= image_tag("tearing.png", :alt => "Tearing", :class => "tear") %>
+    <%= image_tag("hap.png", :alt => "Happy", :class => "hap login-face") %>
+    <%= image_tag("crying.png", :alt => "Crying", :class => "cry login-face") %>
+    <%= image_tag("relaxed.png", :alt => "Relaxed", :class => "relax login-face") %>
+    <%= image_tag("tearing.png", :alt => "Tearing", :class => "tear login-face") %>
     </span>
 </div>
