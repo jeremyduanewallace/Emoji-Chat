@@ -1,6 +1,4 @@
-App.cable = ActionCable.createConsumer("<%= Rails.application.config.web_socket_server_url %>")
-
-console.log(App.cable);
+App.cable = ActionCable.createConsumer("/cable")
 
 App.room = App.cable.subscriptions.create "RoomChannel",
   connected: ->
