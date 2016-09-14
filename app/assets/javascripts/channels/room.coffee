@@ -1,3 +1,5 @@
+@App ||= {}
+
 App.cable = ActionCable.createConsumer("/cable")
 
 App.room = App.cable.subscriptions.create "RoomChannel",
