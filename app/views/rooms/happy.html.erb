@@ -3,8 +3,8 @@ body{
   background-color: yellow !important;
 }
 div[class^="bubble-"] {
-  background-image: url('https://cdn.shopify.com/s/files/1/1061/1924/products/Smiling_Emoji_with_Smiling_Eyes_large.png?v=1458743621') !important;
-  background-size: 100% !important;
+  background-image: url('https://cdn.shopify.com/s/files/1/1061/1924/products/Smiling_Emoji_with_Smiling_Eyes_large.png?v=1458743621');
+  background-size: 100%;
 }
 </style>
 <%= stylesheet_link_tag 'style.css' %>
@@ -39,6 +39,6 @@ div[class^="bubble-"] {
       </div>
 </div>
 
-<div id="chat-input-div" class="emoji-picker-container text-center">
+<div id="chat-input-div" class="emoji-picker-container text-center col-xs-offset-4 col-xs-4">
   <%= text_field_tag "chat-input", nil, class: "text-left form-control", placeholder: "Say something ...", data: {emojiable: true, behavior: "room_speaker"} %>
 </div>
