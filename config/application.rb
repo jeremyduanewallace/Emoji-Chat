@@ -9,6 +9,7 @@ Bundler.require(*Rails.groups)
 
 module Campfire
   class Application < Rails::Application
+    configaction_cable.mount_path = '/websocket'
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
