@@ -30,6 +30,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap-sass'
 gem 'rails_emoji_picker'
 
+gem 'pump'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
