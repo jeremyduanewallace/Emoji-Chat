@@ -27,4 +27,9 @@ before_action :is_authenticated, only: [:sad, :angry, :calm, :happy]
     puts @messages.class
     
   end
+
+  private
+  def user_params
+    params.require(:user).permit(:email, :password, :username)
+  end
 end

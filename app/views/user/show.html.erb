@@ -27,7 +27,9 @@ body {
 }
 </style>
 
-<h1 class="text-center" style="color:blue">Hi <%= @user.username %> Update your profile info here</h1>
+<h1 class="text-center" style="color:grey; text-decoration:underline"><%= @user.username %>'s User Page</h1>
+<br>
+<h6 class="text-center" style="color:grey">Update your profile info here</h6>
 <div class="text-center">
   <%= form_for @user do |form| %>
     <%= form.text_field :username, placeholder: "Update your username" %>

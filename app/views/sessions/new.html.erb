@@ -1,6 +1,7 @@
 <div id="login-form">
   <p id="login-title">Login / Sign Up</p>
     <%= form_for :user do |f| %>
+      <%= f.text_field :username, placeholder: "Enter your username" %>
       <%= f.email_field :email, placeholder: "Enter your email" %>
       <%= f.password_field :password, placeholder: "Enter your password" %>
       <%= f.submit "Submit" %>
