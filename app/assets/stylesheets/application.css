@@ -15,11 +15,13 @@
  *= require_self
  */
  
+@import 'https://fonts.googleapis.com/css?family=Coming+Soon|Creepster|Holtwood+One+SC|Monoton|Press+Start+2P|Slackey|Special+Elite|Swanky+and+Moo+Moo';
+
  #chat-input-div{
   margin-left: 33%;
  }
 
- .text-left.form-control{
+.text-left.form-control{
   width: 700px;
   font-size: 30px;
   height: 70px;
