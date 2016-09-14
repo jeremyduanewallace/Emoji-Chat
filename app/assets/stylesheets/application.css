@@ -15,13 +15,24 @@
  *= require_self
  */
  
+<<<<<<< HEAD
 /* #chat-input-div{
+=======
+@import 'https://fonts.googleapis.com/css?family=Coming+Soon|Creepster|Holtwood+One+SC|Monoton|Press+Start+2P|Slackey|Special+Elite|Swanky+and+Moo+Moo';
+
+ #chat-input-div{
+>>>>>>> 1ff9e54e87e61f720bbf327f886698e5434d6038
   margin-left: 33%;
   width: 400px;
  }*/
 
+<<<<<<< HEAD
  .text-left.form-control{
   width: 100%;
+=======
+.text-left.form-control{
+  width: 700px;
+>>>>>>> 1ff9e54e87e61f720bbf327f886698e5434d6038
   font-size: 30px;
   height: 70px;
 
