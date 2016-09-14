@@ -1,0 +1,38 @@
+<style>
+
+@import url(http://fonts.googleapis.com/css?family=Prosto+One);
+
+@keyframes stretch {
+  0% {
+    transform: scale(1);
+    background-color: #ADFFD5;
+  }
+  50% {
+    background-color: #C4DDFF;
+  }
+  100% {
+    transform: scale(1);
+    background-color: #D9C09E;
+  }
+}
+body {
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+</style>
+
+<h1 class="text-center" style="color:blue">Hi <%= @user.username %> Update your profile info here</h1>
+<div class="text-center">
+  <%= form_for @user do |form| %>
+    <%= form.text_field :username, placeholder: "Update your username" %>
+    <%= form.email_field :email, placeholder: "Update your email" %>
+    <%= form.password_field :password, placeholder: "Update your 8+ digit password" %>
+    <%= form.submit "Update Your Info", class:"btn btn-success" %>
+  <% end %>
+</div>
