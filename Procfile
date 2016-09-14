@@ -1,1 +1,1 @@
-web: bundle exec pump -p $PORT
+web: bundle exec rake jobs:work
