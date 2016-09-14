@@ -1,8 +1,11 @@
 App.cable = ActionCable.createConsumer("<%= Rails.application.config.web_socket_server_url %>")
 
+console.log(App.cable);
+
 App.room = App.cable.subscriptions.create "RoomChannel",
   connected: ->
     # Called when the subscription is ready for use on the server
+    console.log('client connected');
     
   disconnected: ->
     # Called when the subscription has been terminated by the server
