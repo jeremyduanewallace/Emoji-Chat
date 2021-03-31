@@ -27,3 +27,11 @@
 * Front Page: http://i64.tinypic.com/2j27xhs.png
 * Needs Page: http://i66.tinypic.com/2reqtyq.png
 * Chat Page: http://i66.tinypic.com/t4z90k.png
+
+License
+
+https://pin.it/2D0RoF7
+
+https://pin.it/3kknW3P
+
+https://pin.it/42bWpWr
